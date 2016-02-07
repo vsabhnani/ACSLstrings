@@ -1,11 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-/*
- Viren Sabhnani
- ACSL Contest #2
- 7 February 2016
- */
+
 public class ACSLstrings {
 
     public static void main(String[] args) {
