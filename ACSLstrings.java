@@ -190,11 +190,11 @@ public class ACSLstrings {
     }
 
     public static int ordinalIndexOf(String str, char c, int n) {
-        int pos = str.indexOf(c, 0);
-        while (n-- > 0 && pos != -1) {
-            pos = str.indexOf(c, pos + 1);
+        int index = str.indexOf(c, 0);
+        while (n-- > 0 && index != -1) {
+            index = str.indexOf(c, index + 1);
         }
-        return pos;
+        return index;
     }
 
 }
