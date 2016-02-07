@@ -12,7 +12,7 @@ public class ACSLstrings {
         do {
 
             System.out.println("Choose the method you wish to use by entering the corresponding number");
-            System.out.println("(1) char_split (a$, n, ‘char’)\n(2) strrem (a$, b$)\n(3) strchr (a$, b$) \n(4) strtok(a$, b$)\n(5) wordwrap(a$, n, b$)  ");
+            System.out.println("1. char_split (a$, n, ‘char’)\n2. strrem (a$, b$)\n3. strchr (a$, b$) \n4. strtok(a$, b$)\n5. wordwrap(a$, n, b$)  ");
             user = userInput.nextLine();
             int userNum = Integer.parseInt(user);
             if (userNum == 1) {
